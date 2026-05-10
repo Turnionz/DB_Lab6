@@ -1,0 +1,2 @@
+ALTER TABLE public.seat DROP COLUMN seat_status CASCADE;
+DROP TYPE IF EXISTS public.status CASCADE;
